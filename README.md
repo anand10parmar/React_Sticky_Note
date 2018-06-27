@@ -1,7 +1,7 @@
 ![](https://i.imgur.com/mkXHCZ5.jpg)
 ## link to demo
 
-[Demo](https://anand10parmar.github.io/React-stickyNotes/).
+[Demo](https://anand10parmar.github.io/React_Sticky_Note/).
 
 
 ## Getting started
