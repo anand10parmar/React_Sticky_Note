@@ -1,12 +1,13 @@
-![](http://i.imgur.com/5Bqs5zi.png)
+![](https://i.imgur.com/mkXHCZ5.jpg)
+## link to demo
 
-React boilerplate thenewboston tutorials.
+[Demo](https://anand10parmar.github.io/React-stickyNotes/).
+
 
 ## Getting started
 
-To get started simply download the repo using the link below. All required files are included.
+To get started simply download the repo from top right green button of this page.
 
-https://github.com/buckyroberts/React-Boilerplate/archive/master.zip
 
 ## Setting up Gulp (optional)
 
@@ -20,15 +21,14 @@ Navigate to the root directory and  run the following command:
 After modules are installed, you can start watching for SCSS changes using the command:
 ```
 > gulp
+
 ```
+Setting up the server to run in your localmachine.
+```
+>  npm install concurrently --save-dev
+```
+> npm install http-server -g
+```
+> http-server “link of project"
 
-You can install more modules and configure them in the **gulpfile.js** file as needed.
 
-## Links
-
-- [Support thenewboston](https://www.patreon.com/thenewboston)
-- [thenewboston.com](https://thenewboston.com/)
-- [Facebook](https://www.facebook.com/TheNewBoston-464114846956315/)
-- [Twitter](https://twitter.com/bucky_roberts)
-- [Google+](https://plus.google.com/+BuckyRoberts)
-- [reddit](https://www.reddit.com/r/thenewboston/)
