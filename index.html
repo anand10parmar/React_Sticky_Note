@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>React - Template</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/spare.css">-->
+
     <script src="js/react.min.js"></script>
     <script src="js/react-dom.min.js"></script>
     <script src="js/browser.min.js"></script>
@@ -47,8 +49,8 @@
             return (
                 <div className="commentContainer">
                     <div className="commentText">{this.props.children}</div>
-                    <button onClick={this.edit} className="button-primary">Edit</button>
-                    <button onClick={this.remove} className="button-danger">Remove</button>
+                    <button onClick={this.edit} className="button-primary sepBut">Edit</button>
+                    <button onClick={this.remove} className="button-danger sepBut">Remove</button>
                 </div>
             )},
 
@@ -101,14 +103,13 @@
 
         render: function () {
             return(
-                <div>
-                <center>
-                <h1 className="create"> Sticky Notes </h1>
+                <div className="demo-item">
+                    <h1>Sticky Notes</h1>
                     <button onClick={this.add.bind(null, 'Default Text')} className="button-info create">Add New</button>
-                    <div className="board">
+                    <div className="board" >
                         {this.state.comments.map(this.eachComponent)}
                     </div>
-                    </center>
+
                 </div>
             );
         }
