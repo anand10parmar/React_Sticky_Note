@@ -102,11 +102,13 @@
         render: function () {
             return(
                 <div>
+                <center>
                 <h1 className="create"> Sticky Notes </h1>
                     <button onClick={this.add.bind(null, 'Default Text')} className="button-info create">Add New</button>
                     <div className="board">
                         {this.state.comments.map(this.eachComponent)}
                     </div>
+                    </center>
                 </div>
             );
         }
